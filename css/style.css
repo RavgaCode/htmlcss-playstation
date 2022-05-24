@@ -22,3 +22,16 @@
 .header_play_logo {
   height: 2.2rem;
 }
+/* ----------- */
+/* ---MAIN---- */
+/* ----------- */
+
+/* Jumbotron */
+.ms_jumbotron {
+  height: 20rem;
+  background-image: url("../img/jumbo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
