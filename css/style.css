@@ -1,0 +1,24 @@
+/* COMMON */
+
+/* HEADER */
+.header_container {
+  height: 100%;
+  width: 95%;
+  margin: 0 auto;
+}
+.top_header {
+  background-color: black;
+  text-align: end;
+  height: 2rem;
+}
+.top_header img {
+  height: 1rem;
+}
+.bot_header {
+  height: 3rem;
+  /* Test */
+  background-color: deepskyblue;
+}
+.header_play_logo {
+  height: 2.2rem;
+}
