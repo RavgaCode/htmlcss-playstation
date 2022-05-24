@@ -28,10 +28,25 @@
 
 /* Jumbotron */
 .ms_jumbotron {
-  height: 20rem;
+  height: 24rem;
   background-image: url("../img/jumbo-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
+}
+
+/*Playstation 5 */
+.playstation {
+  /* Test */
+  background-color: burlywood;
+}
+.play-game-cover {
+  height: 4rem;
+}
+.play-console-big-pic {
+  height: 20rem;
+}
+.play-list-pic {
+  height: 10rem;
 }
