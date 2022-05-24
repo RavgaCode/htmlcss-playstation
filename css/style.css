@@ -87,6 +87,13 @@
 .playstore-game-pic {
   width: 100%;
 }
+/* PlayStation Now */
+.playstation-now {
+  background-color: #00439c;
+}
+.playstation-now-big-pic {
+  height: 30rem;
+}
 /* ----------- */
 /* MEDIA QUERY */
 /* ----------- */
