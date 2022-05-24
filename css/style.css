@@ -50,3 +50,22 @@
 .play-list-pic {
   height: 10rem;
 }
+/* It Takes Two */
+.takestwo {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.takestwo img {
+  width: 18rem;
+}
+
+/* ----------- */
+/* MEDIA QUERY */
+/* ----------- */
+
+/* Da qui lg */
+@media screen and (min-width: 992px) {
+}
