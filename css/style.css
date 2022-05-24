@@ -61,7 +61,15 @@
 .takestwo img {
   width: 18rem;
 }
-
+/* New Release */
+.newrelease {
+  color: white;
+  /* Test */
+  background-color: darkgoldenrod;
+}
+.newrelase-game-pic {
+  height: 10rem;
+}
 /* ----------- */
 /* MEDIA QUERY */
 /* ----------- */
