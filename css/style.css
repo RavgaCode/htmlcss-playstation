@@ -79,6 +79,14 @@
   max-height: 30rem;
   width: auto;
 }
+/* PlayStation Store */
+.playstore {
+  /* Test */
+  background-color: aquamarine;
+}
+.playstore-game-pic {
+  width: 100%;
+}
 /* ----------- */
 /* MEDIA QUERY */
 /* ----------- */
