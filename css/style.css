@@ -1,6 +1,14 @@
 /* COMMON */
 
 /* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 5rem;
+}
 .header_container {
   height: 100%;
   width: 95%;
@@ -25,7 +33,9 @@
 /* ----------- */
 /* ---MAIN---- */
 /* ----------- */
-
+main {
+  padding-top: 5rem;
+}
 /* Jumbotron */
 .ms_jumbotron {
   height: 24rem;
@@ -96,7 +106,15 @@
 }
 /* Socials */
 .social-logo {
-  height: 10rem;
+  height: 8rem;
+  max-width: 8rem;
+}
+/* ----------- */
+/* --FOOTER--- */
+/* ----------- */
+footer {
+  background-color: #00439c;
+  color: white;
 }
 /* ----------- */
 /* MEDIA QUERY */
