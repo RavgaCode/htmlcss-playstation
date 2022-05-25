@@ -1,5 +1,7 @@
 /* COMMON */
-
+section {
+  margin-bottom: 3rem;
+}
 /* HEADER */
 header {
   position: fixed;
@@ -53,6 +55,7 @@ main {
 }
 .play-game-cover {
   height: 4rem;
+  border-radius: 7px;
 }
 .play-console-big-pic {
   height: 20rem;
@@ -74,11 +77,14 @@ main {
 /* New Release */
 .newrelease {
   color: white;
-  /* Test */
-  background-color: darkgoldenrod;
+  background-color: #1f1f1f;
 }
 .newrelase-game-pic {
   height: 10rem;
+}
+/* Esplora PlayStation 4 */
+.explore-play {
+  color: #727272;
 }
 /* PlayStation Plus */
 .playplus {
@@ -100,6 +106,7 @@ main {
 /* PlayStation Now */
 .playstation-now {
   background-color: #00439c;
+  color: white;
 }
 .playstation-now-big-pic {
   height: 30rem;
@@ -115,6 +122,16 @@ main {
 footer {
   background-color: #00439c;
   color: white;
+  padding: 3rem 0;
+}
+/* Buttons and Colors */
+.btn-orange {
+  background-color: #cd3d0f;
+  color: white;
+}
+.btn-grey-plus {
+  background-color: #d9dadc;
+  color: #00439c;
 }
 /* ----------- */
 /* MEDIA QUERY */
