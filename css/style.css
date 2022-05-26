@@ -154,6 +154,9 @@ footer {
   color: white;
   padding: 3rem 0;
 }
+.sony_logo {
+  height: 4rem;
+}
 /* Buttons and Colors */
 .btn-orange {
   background-color: #cd3d0f;
@@ -162,6 +165,10 @@ footer {
 .btn-grey-plus {
   background-color: #d9dadc;
   color: #00439c;
+}
+.globe_logo {
+  height: 1rem;
+  padding-right: 0.5rem;
 }
 /* ----------- */
 /* MEDIA QUERY */
