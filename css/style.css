@@ -92,6 +92,9 @@ main {
 .play-list-pic {
   width: 100%;
 }
+.playstation h2 {
+  font-size: 2.5rem;
+}
 /* It Takes Two */
 .takestwo {
   background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -126,6 +129,9 @@ h5 {
 .playplus-april-pic {
   width: 100%;
 }
+.playplus .card-img-top {
+  width: 60%;
+}
 /* PlayStation Store */
 .playstore {
   /* Test */
@@ -142,9 +148,15 @@ h5 {
 .playstation-now-big-pic {
   width: 100%;
 }
+.playstation-now .card-img-top {
+  width: 60%;
+}
 /* Socials */
 .social-logo {
   width: 100%;
+}
+.ms_square_container {
+  width: 8rem;
 }
 /* ----------- */
 /* --FOOTER--- */
