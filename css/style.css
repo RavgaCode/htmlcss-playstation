@@ -2,6 +2,16 @@
 section {
   margin-bottom: 3rem;
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.arrow_down {
+  height: 1rem;
+}
 /* HEADER */
 header {
   position: fixed;
@@ -32,6 +42,19 @@ header {
 .header_play_logo {
   height: 2.2rem;
 }
+.ms_nav_ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.ms_nav_ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  vertical-align: middle;
+}
 /* ----------- */
 /* ---MAIN---- */
 /* ----------- */
@@ -54,14 +77,14 @@ main {
   background-color: burlywood;
 }
 .play-game-cover {
-  height: 4rem;
+  width: 100%;
   border-radius: 7px;
 }
 .play-console-big-pic {
-  height: 20rem;
+  width: 100%;
 }
 .play-list-pic {
-  height: 10rem;
+  width: 100%;
 }
 /* It Takes Two */
 .takestwo {
@@ -80,20 +103,22 @@ main {
   background-color: #1f1f1f;
 }
 .newrelase-game-pic {
-  height: 10rem;
+  width: 100%;
 }
 /* Esplora PlayStation 4 */
 .explore-play {
   color: #727272;
+}
+.explore-play h2,
+h5 {
+  color: black;
 }
 /* PlayStation Plus */
 .playplus {
   background-color: #bebcbb;
 }
 .playplus-april-pic {
-  height: 100%;
-  max-height: 30rem;
-  width: auto;
+  width: 100%;
 }
 /* PlayStation Store */
 .playstore {
@@ -109,12 +134,11 @@ main {
   color: white;
 }
 .playstation-now-big-pic {
-  height: 30rem;
+  width: 100%;
 }
 /* Socials */
 .social-logo {
-  height: 8rem;
-  max-width: 8rem;
+  width: 100%;
 }
 /* ----------- */
 /* --FOOTER--- */
