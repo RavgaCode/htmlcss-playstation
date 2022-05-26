@@ -75,10 +75,24 @@ main {
   background-position: center;
   color: white;
 }
+.ms_jumbotron h2 {
+  color: white;
+}
 /*Playstation 5 */
+.playstation {
+  color: #727272;
+}
 .play-game-cover {
   width: 100%;
   border-radius: 7px;
+}
+.play_section_title_card {
+  text-align: center;
+  padding: 3rem 0;
+}
+.play_section_title_card h5 {
+  color: #2d63e5;
+  font-size: 1rem;
 }
 .play-console-big-pic {
   width: 100%;
@@ -102,14 +116,21 @@ main {
 .takestwo img {
   width: 18rem;
 }
+.takestwo h2 {
+  color: white;
+}
 /* New Release */
 .newrelease {
   color: white;
   background-color: #1f1f1f;
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .newrelase-game-pic {
   width: 100%;
+}
+.newrelease h2 {
+  color: white;
 }
 /* Esplora PlayStation 4 */
 .explore-play {
@@ -130,10 +151,6 @@ h5 {
   width: 60%;
 }
 /* PlayStation Store */
-.playstore {
-  /* Test */
-  /* background-color: aquamarine; */
-}
 .playstore-game-pic {
   width: 100%;
 }
@@ -180,6 +197,9 @@ footer {
   padding-right: 0.5rem;
 }
 /* UTILITIES */
+.highlighted-img {
+  color: black;
+}
 .highlighted-img::after {
   content: "";
   display: block;
@@ -189,7 +209,7 @@ footer {
   border-radius: 20px;
   background-color: #2d63e5;
   position: absolute;
-  bottom: -15px;
+  bottom: 20px;
 }
 .highlighted-img img {
   opacity: 1;
@@ -203,6 +223,9 @@ footer {
   outline-offset: 3px;
   padding: 0 0.5rem;
   border-radius: 3px;
+}
+h2 {
+  color: black;
 }
 /* ----------- */
 /* MEDIA QUERY */
