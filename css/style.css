@@ -151,6 +151,9 @@ h5 {
   width: 60%;
 }
 /* PlayStation Store */
+.playstore {
+  color: #bebcbb;
+}
 .playstore-game-pic {
   width: 100%;
 }
