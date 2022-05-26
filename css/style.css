@@ -4,13 +4,16 @@ section {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
 .arrow_down {
-  height: 1rem;
+  height: 0.7rem;
+  padding-left: 0.3rem;
 }
 /* HEADER */
 header {
@@ -44,16 +47,19 @@ header {
 }
 .ms_nav_ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
+  margin-right: -0.5rem;
 }
 .ms_nav_ul li {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   height: 100%;
-  vertical-align: middle;
+  padding-right: 0.5rem;
+}
+.nav_right {
+  justify-content: end;
 }
 /* ----------- */
 /* ---MAIN---- */
