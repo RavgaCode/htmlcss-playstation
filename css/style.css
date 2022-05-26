@@ -227,10 +227,3 @@ footer {
 h2 {
   color: black;
 }
-/* ----------- */
-/* MEDIA QUERY */
-/* ----------- */
-
-/* Da qui lg */
-@media screen and (min-width: 992px) {
-}
